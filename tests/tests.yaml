@@ -14,6 +14,7 @@
 - tests/unit-tests/sysbus.robot
 - tests/platforms/SiFive-FE310/SiFive-FE310.robot
 - tests/platforms/SiFive-FU540.robot
+- tests/platforms/SiFive-FU740.robot
 - tests/platforms/PicoSoC.robot
 - tests/platforms/MiV/MiV.robot
 - tests/platforms/STM32F103.robot
@@ -118,7 +119,6 @@
 - tests/unit-tests/page-access-via-io.robot
 - tests/unit-tests/precise-pause.robot
 - tests/unit-tests/peripheral-hooks.robot
-- tests/platforms/xilinx_zynqmp_r5.robot
 - tests/platforms/zynqmp.robot
 - tests/unit-tests/uart-tester.robot
 - tests/platforms/ARMv8A-Linux.robot
@@ -146,3 +146,5 @@
 - tests/platforms/nucleo_h753zi.robot
 - tests/platforms/EK-RA2E1.robot
 - tests/peripherals/UT32_CAN.robot
+- tests/peripherals/S32K3XX_FlexCAN.robot
+- tests/platforms/BeagleV-StarLight.robot
